@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greg Patrick Locquiano — Full-Stack Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="crt"></div>
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- ── NAV ─────────────────────────────────────────── -->
+    <nav id="nav">
+      <a class="nav-logo" href="#hero">GREG.<span>DEV</span></a>
+      <button class="nav-hamburger" id="hamburger" aria-label="menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">ABOUT</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#experience">JOURNEY</a>
+        <a href="#achievements">BADGES</a>
+        <a href="#github-analytics">GITHUB</a>
+        <a href="#certificates">CERTS</a>
+        <a href="#testimonials">REVIEWS</a>
+        <a href="#terminal-section">TERMINAL</a>
+        <a href="#contact" class="cta">HIRE ME</a>
+      </div>
+    </nav>
+
+    <!-- ═══════════════════════════════════════════════════
+     1. HERO
+═══════════════════════════════════════════════════ -->
+    <section id="hero" class="section-full">
+      <canvas id="hero-canvas"></canvas>
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span
+          ><span
+            style="
+              font-family: var(--pixel);
+              font-size: 8px;
+              color: var(--cyan);
+              letter-spacing: 2px;
+            "
+            >OPEN TO WORK</span
+          >
+        </div>
+        <div class="hero-eyebrow">
+          FULL-STACK DEVELOPER · BICOL, PHILIPPINES
+        </div>
+        <h1 class="hero-name">GREG PATRICK<br />LOCQUIANO</h1>
+        <p class="hero-sub">
+          <span>MERN Stack</span> · Node.js · React · <span>Ubuntu Server</span>
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn">⚔ VIEW PROJECTS</a>
+          <a href="#contact" class="btn btn-secondary">✉ CONTACT ME</a>
+          <a
+            href="https://github.com/Locquiano101"
+            target="_blank"
+            class="btn btn-ghost"
+            >🐙 GITHUB</a
+          >
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <span>SCROLL</span>
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════
+     2. ABOUT
+═══════════════════════════════════════════════════ -->
+    <section id="about">
+      <div class="section-label">01 · ABOUT</div>
+      <h2 class="section-title">CHARACTER PROFILE</h2>
+      <div class="about-grid">
+        <div class="char-card reveal-left">
+          <div class="char-avatar">
+            <canvas id="avatar-canvas" width="120" height="120"></canvas>
+          </div>
+          <div class="char-name">GREG P. LOCQUIANO</div>
+          <div class="char-class">Full-Stack Developer</div>
+          <div class="char-stats">
+            <div class="stat-row">
+              <span class="stat-key">CLASS</span
+              ><span class="stat-val">BSIS · 4th Year</span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-key">GUILD</span
+              ><span class="stat-val">CNSC · Camarines Norte</span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-key">REGION</span
+              ><span class="stat-val">Bicol, Philippines</span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-key">STACK</span
+              ><span class="stat-val">MERN + Linux</span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-key">RANK</span
+              ><span class="stat-val">President · PRAXIS</span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-key">XP</span
+              ><span class="stat-val">3+ Years Coding</span>
+            </div>
+          </div>
+          <div class="char-links">
+            <a
+              href="mailto:Locquianopatrickgreg@gmail.com"
+              class="btn btn-secondary"
+              style="
+                font-size: 7px;
+                padding: 10px 12px;
+                text-align: center;
+                justify-content: center;
+              "
+              >✉ EMAIL</a
+            >
+            <a
+              href="https://github.com/Locquiano101"
+              target="_blank"
+              class="btn btn-ghost"
+              style="
+                font-size: 7px;
+                padding: 10px 12px;
+                text-align: center;
+                justify-content: center;
+              "
+              >🐙 GITHUB</a
+            >
+          </div>
+        </div>
+        <div class="about-text reveal-right">
+          <div class="about-bio">
+            I'm a <strong>full-stack developer</strong> from Bicol, Philippines,
+            currently pursuing a Bachelor of Science in Information Systems at
+            <em>Camarines Norte State College</em>.<br /><br />
+            I build end-to-end web systems — from interactive
+            <strong>React frontends</strong> to
+            <strong>Node.js + MongoDB</strong> backends, deployed on real,
+            Self-hosted <em>Ubuntu servers</em>. My work has served student
+            offices in actual production environments.<br /><br />
+            Beyond code, I lead people. I've helped organize
+            <strong>inter-school IT conferences</strong> across Bicol, served as
+            <em>President of PRAXIS</em>, and VP of External Affairs for
+            <strong>ISSO</strong>.
+          </div>
+          <div class="divider"></div>
+          <div class="section-label" style="margin-bottom: 20px">
+            JOURNEY LOG
+          </div>
+          <div class="timeline">
+            <div class="tl-item reveal">
+              <div class="tl-year">2020</div>
+              <div class="tl-dot"></div>
+              <div class="tl-body">
+                <div class="tl-title">🏫 STEM TRACK BEGINS</div>
+                <div class="tl-sub">
+                  Mabini Colleges Inc. — Senior High School. First encounter
+                  with programming concepts.
+                </div>
+              </div>
+            </div>
+            <div class="tl-item reveal">
+              <div class="tl-year">2022</div>
+              <div class="tl-dot"></div>
+              <div class="tl-body">
+                <div class="tl-title">🎓 BSIS · CNSC</div>
+                <div class="tl-sub">
+                  Enrolled at Camarines Norte State College. Discovered the MERN
+                  stack. First real systems built.
+                </div>
+              </div>
+            </div>
+            <div class="tl-item reveal">
+              <div class="tl-year">2023</div>
+              <div class="tl-dot"></div>
+              <div class="tl-body">
+                <div class="tl-title">🔐 HACK4GOV CYBERCHALLENGE</div>
+                <div class="tl-sub">
+                  Hotel St. Ellis, Legazpi City. First taste of competitive
+                  cybersecurity.
+                </div>
+              </div>
+            </div>
+            <div class="tl-item reveal">
+              <div class="tl-year">2023–24</div>
+              <div
+                class="tl-dot"
+                style="background: var(--cyan); outline-color: var(--cyan)"
+              ></div>
+              <div class="tl-body">
+                <div class="tl-title">🏅 VP EXTERNAL AFFAIRS · ISSO</div>
+                <div class="tl-sub">
+                  Led coordination for BITSCON 2024 — Bicol IT Student Congress
+                  at CNSC.
+                </div>
+              </div>
+            </div>
+            <div class="tl-item reveal">
+              <div class="tl-year">2024</div>
+              <div class="tl-dot" style="background: var(--gold)"></div>
+              <div class="tl-body">
+                <div class="tl-title">⚔ CNSC CODEX MAIN · SHIPPED</div>
+                <div class="tl-sub">
+                  Full MERN platform serving real student offices. Deployed on
+                  Ubuntu Server in production.
+                </div>
+              </div>
+            </div>
+            <div class="tl-item reveal">
+              <div class="tl-year">2024–25</div>
+              <div
+                class="tl-dot"
+                style="background: var(--purple); outline-color: var(--purple)"
+              ></div>
+              <div class="tl-body">
+                <div class="tl-title">👑 PRESIDENT · PRAXIS ORG</div>
+                <div class="tl-sub">
+                  Led IS WEB 3.0 — exploring innovation in web development.
+                  Inter-school conference.
+                </div>
+              </div>
+            </div>
+            <div class="tl-item reveal">
+              <div class="tl-year">2025</div>
+              <div
+                class="tl-dot"
+                style="background: var(--green); outline-color: var(--green)"
+              ></div>
+              <div class="tl-body">
+                <div class="tl-title">🌟 BICOL YOUNG LEADERS SUMMIT</div>
+                <div class="tl-sub">
+                  Ateneo De Naga University — regional leadership and youth
+                  development summit.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════
+     3. SKILLS
+═══════════════════════════════════════════════════ -->
+    <section id="skills" class="section-full">
+      <div class="section-inner">
+        <div class="section-label">02 · SKILLS</div>
+        <h2 class="section-title">SKILL TREE</h2>
+        <div class="skills-grid" id="skills-grid">
+          <!-- Rendered from data/skills.json by js/data-loader.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════
+     4. PROJECTS
+═══════════════════════════════════════════════════ -->
+    <section id="projects">
+      <div class="section-label">03 · PROJECTS</div>
+      <h2 class="section-title">QUEST LOG</h2>
+      <div class="projects-layout">
+        <!-- Featured (rendered from data/projects.json) -->
+        <div class="project-featured reveal" id="project-featured-mount"></div>
+
+        <!-- Cards (rendered from data/projects.json) -->
+        <div class="projects-cards" id="projects-cards-mount"></div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════
+     5. EXPERIENCE
+═══════════════════════════════════════════════════ -->
+    <section id="experience" class="section-full">
+      <div class="section-inner">
+        <div class="section-label">04 · EXPERIENCE</div>
+        <h2 class="section-title">ADVENTURE LOG</h2>
+        <div class="exp-timeline">
+          <div class="exp-item reveal">
+            <div class="exp-date">2024 – 2025</div>
+            <div class="exp-role">PRESIDENT</div>
+            <div class="exp-org">PRAXIS Organization · CNSC</div>
+            <div class="exp-desc">
+              Led the organization and spearheaded IS WEB 3.0 — an inter-school
+              web development conference exploring modern innovation.
+              Coordinated logistics, speakers, and inter-campus collaboration
+              across Bicol.
+            </div>
+            <span class="exp-tag">Leadership</span
+            ><span class="exp-tag">Event Management</span
+            ><span class="exp-tag">Web Dev Conference</span>
+          </div>
+
+          <div class="exp-item reveal">
+            <div class="exp-date">2023 – 2024</div>
+            <div class="exp-role">VP OF EXTERNAL AFFAIRS</div>
+            <div class="exp-org">ISSO · CNSC</div>
+            <div class="exp-desc">
+              Coordinated BITSCON 2024 — the Bicol IT Student Congress. Managed
+              partner organization relations, event logistics, and on-site
+              coordination across multiple schools.
+            </div>
+            <span class="exp-tag">External Affairs</span
+            ><span class="exp-tag">BITSCON 2024</span
+            ><span class="exp-tag">Coordination</span>
+          </div>
+
+          <div class="exp-item reveal">
+            <div class="exp-date">2024</div>
+            <div class="exp-role">LEAD DEVELOPER</div>
+            <div class="exp-org">CNSC Codex Main · Self-Initiated</div>
+            <div class="exp-desc">
+              Architected and built a full MERN platform used in production by
+              CNSC student service offices. Handled full-stack development,
+              Ubuntu Server deployment, and ongoing maintenance.
+            </div>
+            <span class="exp-tag">MERN Stack</span
+            ><span class="exp-tag">Production</span
+            ><span class="exp-tag">Ubuntu Server</span>
+          </div>
+
+          <div class="exp-item reveal">
+            <div class="exp-date">2024</div>
+            <div class="exp-role">WEB DEVELOPER</div>
+            <div class="exp-org">CNPENRO · Government Project</div>
+            <div class="exp-desc">
+              Delivered a file tracking and management system for the Provincial
+              Environment and Natural Resources Office, digitizing previously
+              manual government document workflows.
+            </div>
+            <span class="exp-tag">Government Client</span
+            ><span class="exp-tag">File Systems</span
+            ><span class="exp-tag">Pure JS</span>
+          </div>
+
+          <div class="exp-item reveal">
+            <div class="exp-date">2025</div>
+            <div class="exp-role">DELEGATE</div>
+            <div class="exp-org">
+              Bicol Young Leaders Summit · Ateneo De Naga
+            </div>
+            <div class="exp-desc">
+              Selected to attend regional youth leadership development summit,
+              representing CNSC and building cross-institutional networks across
+              the Bicol region.
+            </div>
+            <span class="exp-tag">Leadership</span
+            ><span class="exp-tag">Regional Summit</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════
+     6. ACHIEVEMENTS
+═══════════════════════════════════════════════════ -->
+    <section id="achievements">
+      <div class="section-label">05 · ACHIEVEMENTS</div>
+      <h2 class="section-title">TROPHY WALL</h2>
+      <div class="achievements-grid" id="achievements-grid">
+        <!-- Rendered from data/achievements.json by js/data-loader.js -->
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════
+     7. GITHUB ANALYTICS
+═══════════════════════════════════════════════════ -->
+    <section id="github-analytics">
+      <div class="section-label">06 · GITHUB ANALYTICS</div>
+      <h2 class="section-title">CODE STATS</h2>
+      <p class="section-intro">
+        Live stats pulled straight from
+        <a
+          id="github-profile-link"
+          href="https://github.com/Locquiano101"
+          target="_blank"
+          rel="noopener"
+          >github.com/Locquiano101</a
+        >.
+      </p>
+      <div class="github-grid" id="github-grid">
+        <!-- Rendered from data/github.json by js/data-loader.js -->
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════
+     8. CERTIFICATES
+═══════════════════════════════════════════════════ -->
+    <section id="certificates">
+      <div class="section-label">07 · CERTIFICATES</div>
+      <h2 class="section-title">SKILL SCROLLS</h2>
+      <div class="cert-grid" id="certificates-grid">
+        <!-- Rendered from data/certificates.json by js/data-loader.js -->
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════
+     9. TESTIMONIALS
+═══════════════════════════════════════════════════ -->
+    <section id="testimonials">
+      <div class="section-label">08 · TESTIMONIALS</div>
+      <h2 class="section-title">PARTY REVIEWS</h2>
+      <div class="testimonial-grid" id="testimonials-grid">
+        <!-- Rendered from data/testimonials.json by js/data-loader.js -->
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════
+     10. TERMINAL
+═══════════════════════════════════════════════════ -->
+    <section id="terminal-section" class="section-full">
+      <div class="section-inner">
+        <div class="section-label">09 · TERMINAL</div>
+        <h2 class="section-title">COMMAND CENTER</h2>
+        <div class="terminal-window reveal">
+          <div class="terminal-bar">
+            <div class="t-dot red"></div>
+            <div class="t-dot yellow"></div>
+            <div class="t-dot green"></div>
+            <div class="t-title">greg@devtown: ~/portfolio</div>
+          </div>
+          <div class="terminal-body" id="t-output"></div>
+          <div class="terminal-input-row">
+            <span class="t-prompt-label">greg@devtown:~$</span>
+            <input
+              id="t-input"
+              type="text"
+              autocomplete="off"
+              spellcheck="false"
+              placeholder="type a command..."
+            />
+          </div>
+          <div class="terminal-shortcuts">
+            <button class="t-shortcut" data-cmd="whoami">whoami</button>
+            <button class="t-shortcut" data-cmd="skills">skills</button>
+            <button class="t-shortcut" data-cmd="projects">projects</button>
+            <button class="t-shortcut" data-cmd="contact">contact</button>
+            <button class="t-shortcut" data-cmd="github">github</button>
+            <button class="t-shortcut" data-cmd="help">help</button>
+            <button class="t-shortcut" data-cmd="clear">clear</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════
+     11. CONTACT
+═══════════════════════════════════════════════════ -->
+    <section id="contact">
+      <div class="section-label">10 · CONTACT</div>
+      <h2 class="section-title">SEND A SCROLL</h2>
+      <div class="contact-grid">
+        <div>
+          <p class="contact-intro reveal">
+            I'm currently
+            <strong>open to internships and developer opportunities</strong>.
+            Whether you're building something meaningful or have an interesting
+            project — let's connect and make it happen.
+          </p>
+          <div class="contact-cards">
+            <a
+              href="mailto:Locquianopatrickgreg@gmail.com"
+              class="contact-card reveal"
+            >
+              <div class="contact-card-icon">📧</div>
+              <div class="contact-card-info">
+                <div class="contact-card-label">EMAIL</div>
+                <div class="contact-card-val">
+                  Locquianopatrickgreg@gmail.com
+                </div>
+              </div>
+            </a>
+            <a href="tel:+639612157709" class="contact-card reveal">
+              <div class="contact-card-icon">📱</div>
+              <div class="contact-card-info">
+                <div class="contact-card-label">PHONE</div>
+                <div class="contact-card-val">+63 961 215 7709</div>
+              </div>
+            </a>
+            <a
+              href="https://github.com/Locquiano101"
+              target="_blank"
+              class="contact-card reveal"
+            >
+              <div class="contact-card-icon">🐙</div>
+              <div class="contact-card-info">
+                <div class="contact-card-label">GITHUB</div>
+                <div class="contact-card-val">github.com/Locquiano101</div>
+              </div>
+            </a>
+            <div class="contact-card reveal" style="cursor: default">
+              <div class="contact-card-icon">📍</div>
+              <div class="contact-card-info">
+                <div class="contact-card-label">LOCATION</div>
+                <div class="contact-card-val">Bicol, Philippines</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-right">
+          <div class="resume-card reveal">
+            <div class="resume-icon">📄</div>
+            <div class="resume-title">DOWNLOAD RESUME</div>
+            <div class="resume-sub">
+              Get Greg's full CV — skills, experience, and contact details.
+            </div>
+            <a
+              href="mailto:Locquianopatrickgreg@gmail.com?subject=Resume Request"
+              class="btn"
+              style="width: 100%; justify-content: center"
+              >⬇ REQUEST RESUME</a
+            >
+          </div>
+          <div class="availability reveal">
+            <div class="avail-label">
+              <span class="avail-dot"></span>AVAILABLE FOR HIRE
+            </div>
+            <div class="avail-text">
+              Open to internships, freelance projects, and full-time developer
+              roles. Based in Bicol — remote-ready.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FOOTER ─── -->
+    <footer>
+      <div class="footer-logo">GREG.DEV</div>
+      <div class="footer-copy">
+        BUILT WITH <span>♥</span> IN BICOL, PHILIPPINES · 2025
+      </div>
+      <div
+        style="font-family: var(--pixel); font-size: 7px; color: var(--border2)"
+      >
+        GREG PATRICK LOCQUIANO
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="js/data-loader.js"></script>
+  </body>
+</html>

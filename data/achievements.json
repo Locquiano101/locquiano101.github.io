@@ -1,0 +1,38 @@
+[
+  {
+    "icon": "👑",
+    "name": "GUILD MASTER",
+    "desc": "President of PRAXIS organization",
+    "year": "2024–2025"
+  },
+  {
+    "icon": "🏅",
+    "name": "DIPLOMAT",
+    "desc": "VP External Affairs of ISSO",
+    "year": "2023–2024"
+  },
+  {
+    "icon": "🔐",
+    "name": "CYBER WARRIOR",
+    "desc": "Hack4Gov CyberChallenge",
+    "year": "2023"
+  },
+  {
+    "icon": "🌐",
+    "name": "FULL-STACK MAGE",
+    "desc": "Mastered the MERN Stack in production",
+    "year": "2024"
+  },
+  {
+    "icon": "🖥",
+    "name": "SERVER ADMIN",
+    "desc": "Ubuntu Server prod deployment",
+    "year": "2024"
+  },
+  {
+    "icon": "⚡",
+    "name": "YOUNG LEADER",
+    "desc": "Bicol Young Leaders Summit",
+    "year": "2025"
+  }
+]

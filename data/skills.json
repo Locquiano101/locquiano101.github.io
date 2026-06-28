@@ -1,0 +1,62 @@
+[
+  {
+    "icon": "⚛",
+    "name": "FRONTEND",
+    "bars": [
+      { "label": "React.js / JSX", "pct": 85, "fill": "fill-gold" },
+      { "label": "HTML5 / CSS3", "pct": 90, "fill": "fill-gold" },
+      { "label": "JavaScript (ES6+)", "pct": 85, "fill": "fill-gold" }
+    ],
+    "tags": ["React", "HTML5", "CSS3", "JavaScript", "JSX"]
+  },
+  {
+    "icon": "⚙",
+    "name": "BACKEND",
+    "bars": [
+      { "label": "Node.js / Express", "pct": 80, "fill": "fill-cyan" },
+      { "label": "PHP", "pct": 70, "fill": "fill-cyan" },
+      { "label": "REST API Design", "pct": 78, "fill": "fill-cyan" }
+    ],
+    "tags": ["Node.js", "Express", "PHP", "REST API", "Auth"]
+  },
+  {
+    "icon": "🗄",
+    "name": "DATABASE",
+    "bars": [
+      { "label": "MongoDB", "pct": 75, "fill": "fill-green" },
+      { "label": "MySQL / SQL", "pct": 65, "fill": "fill-green" },
+      { "label": "DB Design / CRUD", "pct": 72, "fill": "fill-green" }
+    ],
+    "tags": ["MongoDB", "MySQL", "SQL", "Mongoose"]
+  },
+  {
+    "icon": "🖥",
+    "name": "DEVOPS / SERVER",
+    "bars": [
+      { "label": "Ubuntu Server", "pct": 72, "fill": "fill-purple" },
+      { "label": "Linux CLI / SSH", "pct": 68, "fill": "fill-purple" },
+      { "label": "Git / GitHub", "pct": 82, "fill": "fill-purple" }
+    ],
+    "tags": ["Ubuntu", "Linux", "SSH", "Git", "GitHub"]
+  },
+  {
+    "icon": "🛡",
+    "name": "SECURITY",
+    "bars": [
+      { "label": "Auth Systems", "pct": 75, "fill": "fill-pink" },
+      { "label": "Role-Based Access", "pct": 78, "fill": "fill-pink" },
+      { "label": "Cybersecurity Basics", "pct": 55, "fill": "fill-pink" }
+    ],
+    "tags": ["JWT", "RBAC", "Sessions", "Hack4Gov"]
+  },
+  {
+    "icon": "🌐",
+    "name": "FULL STACK",
+    "bars": [
+      { "label": "MERN Stack", "pct": 82, "fill": "fill-gold" },
+      { "label": "File Handling", "pct": 75, "fill": "fill-gold" },
+      { "label": "Production Deploy", "pct": 70, "fill": "fill-gold" }
+    ],
+    "tags": ["MERN", "Full-Stack", "Deploy", "CRUD"]
+  }
+]

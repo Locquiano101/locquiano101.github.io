@@ -1,0 +1,46 @@
+{
+  "username": "locquiano101",
+  "profileUrl": "https://github.com/Locquiano101",
+  "widgets": [
+    {
+      "id": "heatmap",
+      "title": "CONTRIBUTION HEATMAP",
+      "desc": "Daily commit activity across all repositories",
+      "url": "https://ghchart.rshah.org/locquiano101",
+      "alt": "GitHub contribution heatmap for locquiano101",
+      "span": "full"
+    },
+    {
+      "id": "stats",
+      "title": "GITHUB STATS",
+      "desc": "Commits, stars, PRs, and issues overview",
+      "url": "https://github-readme-stats.vercel.app/api?username=locquiano101&show_icons=true",
+      "alt": "GitHub stats card for locquiano101",
+      "span": "half"
+    },
+    {
+      "id": "streak",
+      "title": "STREAK STATS",
+      "desc": "Current and longest contribution streaks",
+      "url": "https://streak-stats.demolab.com?user=locquiano101",
+      "alt": "GitHub streak stats for locquiano101",
+      "span": "half"
+    },
+    {
+      "id": "top-langs",
+      "title": "TOP LANGUAGES",
+      "desc": "Most-used languages across repositories",
+      "url": "https://github-readme-stats.vercel.app/api/top-langs/?username=locquiano101&layout=compact",
+      "alt": "Top languages used by locquiano101",
+      "span": "half"
+    },
+    {
+      "id": "activity-graph",
+      "title": "ACTIVITY GRAPH",
+      "desc": "Contribution activity over the last year",
+      "url": "https://github-readme-activity-graph.vercel.app/graph?username=locquiano101",
+      "alt": "GitHub activity graph for locquiano101",
+      "span": "half"
+    }
+  ]
+}

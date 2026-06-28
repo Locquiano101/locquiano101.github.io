@@ -1,0 +1,43 @@
+{
+  "featured": {
+    "num": "01 · FEATURED PROJECT",
+    "name": "CNSC CODEX MAIN",
+    "desc": "A centralized MERN platform deployed in production, used by multiple student service offices at CNSC to manage organization files, events, and violation records. Built with annual data reset cycles aligned to the academic year.",
+    "stack": ["MongoDB", "Express", "React", "Node.js", "Ubuntu Server", "REST API"],
+    "github": "https://github.com/Locquiano101/CnscCodexMain",
+    "canvas": {
+      "id": "proj-canvas-1",
+      "seed": 200,
+      "label": "CNSC CODEX",
+      "lines": ["MongoDB · React · Node.js", "Express · Ubuntu Server"]
+    }
+  },
+  "cards": [
+    {
+      "num": "02 · PHP SYSTEM",
+      "name": "TODOEASE",
+      "desc": "Multi-user task manager with full CRUD, account authentication, and role-based access. Admins manage tasks across all users.",
+      "stack": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+      "github": "https://github.com/Locquiano101/ToDoEase",
+      "canvas": {
+        "id": "proj-canvas-2",
+        "seed": 140,
+        "label": "TODOEASE",
+        "lines": ["PHP · MySQL", "Multi-User CRUD"]
+      }
+    },
+    {
+      "num": "03 · GOVERNMENT SYSTEM",
+      "name": "CNPENRO FILE TRACKER",
+      "desc": "Web-based file management system for the Provincial Environment and Natural Resources Office. Digitizes manual records for centralized government document storage.",
+      "stack": ["HTML5", "CSS3", "JavaScript"],
+      "github": "https://github.com/Locquiano101/Final-Sad-Project",
+      "canvas": {
+        "id": "proj-canvas-3",
+        "seed": 100,
+        "label": "PENRO FTSMS",
+        "lines": ["HTML · CSS · JS", "Gov File System"]
+      }
+    }
+  ]
+}
