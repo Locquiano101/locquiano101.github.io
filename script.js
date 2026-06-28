@@ -55,7 +55,9 @@ function applyReveals(scope) {
       el.style.transitionDelay = (i % 6) * 0.07 + "s";
     }
   });
-  root.querySelectorAll(".skill-cat").forEach((el) => skillObserver.observe(el));
+  root
+    .querySelectorAll(".skill-cat")
+    .forEach((el) => skillObserver.observe(el));
 }
 window.applyReveals = applyReveals;
 applyReveals(document);
@@ -589,4 +591,3 @@ window.initProjectCanvas = initProjectCanvas;
 
 // (skill-bar reveal-on-scroll is now handled by the consolidated
 // applyReveals()/skillObserver setup near the top of this file)
-
